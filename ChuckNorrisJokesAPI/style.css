@@ -1,0 +1,34 @@
+body{
+    background-color: black;
+    color: #96c276;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+p{
+    font-size: 20px;
+    margin-bottom: 70px;
+    width: 50%;
+    text-align: center;
+}
+
+button{
+    border: 2px solid #96c276;
+    background-color: transparent;
+    color: #96c276;
+    padding: 15px;
+    letter-spacing: 2px;
+}
+
+button:hover{
+    cursor: pointer;
+    scale: 1.1;
+}
